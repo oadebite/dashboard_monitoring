@@ -91,7 +91,7 @@ Time: {time.strftime('%Y-%m-%d %H:%M:%S')}
 
 
 # -------------------------------
-# Local metrics
+# Local metrics on the server
 # -------------------------------
 def get_local_metrics():
     cpu = psutil.cpu_percent(interval=1)
