@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.secret_key = "23467923487"
 
 # -------------------------------
-# Users for dashboard login
+# Users for dashboard login in monitoring
 # -------------------------------
 USERS = {
     "tv": "admin",
