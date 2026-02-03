@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.secret_key = "23467923487"
 
 # -------------------------------
-# Users for dashboard login
+# Users for dashboard login in monitoring
 # -------------------------------
 USERS = {
     "tv": "admin",
@@ -91,7 +91,7 @@ Time: {time.strftime('%Y-%m-%d %H:%M:%S')}
 
 
 # -------------------------------
-# Local metrics
+# Local metrics on the server
 # -------------------------------
 def get_local_metrics():
     cpu = psutil.cpu_percent(interval=1)
